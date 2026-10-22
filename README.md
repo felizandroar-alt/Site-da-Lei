@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#100b12">
+<title>Para a minha Leontina ❤️</title>
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+ margin:0;background:#100b12;color:#fff5f3;
+ font-family:Georgia,"Times New Roman",serif;line-height:1.7
+}
+:root{--red:#ff4564;--gold:#edc58b;--muted:#d9cbd0}
+nav{
+ position:sticky;top:0;z-index:10;background:#100b12ed;
+ border-bottom:1px solid #ffffff19;padding:13px 5%;
+ display:flex;justify-content:space-between;align-items:center;gap:10px
+}
+.brand{font-size:19px;font-style:italic;color:white}
+.brand span{color:var(--red)}
+nav a{color:#eee;text-decoration:none;font-size:13px}
+.hero{
+ min-height:570px;display:flex;align-items:center;padding:65px 8%;
+ background:linear-gradient(90deg,#100b12 0%,#100b12df 40%,#100b1240 100%),
+ linear-gradient(0deg,#100b12 0%,transparent 45%),
+ url("https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=1800&q=85") center/cover;
+}
+.intro{max-width:570px}
+.eyebrow{letter-spacing:3px;font-size:11px;color:var(--gold)}
+h1{font-size:clamp(45px,8vw,78px);line-height:1.05;margin:18px 0}
+h1 em{color:var(--red);font-weight:normal}
+p{color:var(--muted)}
+.hero p{font-size:18px;max-width:440px}
+.btn{
+ display:inline-block;border:0;border-radius:30px;padding:14px 23px;
+ background:var(--red);color:white;font-size:15px;
+ text-decoration:none;cursor:pointer;margin-top:15px
+}
+.btn:hover{filter:brightness(1.12)}
+section{padding:65px 7%;scroll-margin-top:65px}
+.section-title{text-align:center;font-size:32px;margin:0 0 10px}
+.subtitle{text-align:center;max-width:570px;margin:0 auto 35px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+.card{
+ background:#1b131c;border:1px solid #ffffff12;border-radius:17px;
+ padding:24px 18px;text-align:center
+}
+.heart{font-size:34px;color:var(--red)}
+.card h3{font-size:19px;margin:8px 0}
+.card p{font-size:14px;margin-bottom:0}
+.story{background:#190f17}
+.story-inner{max-width:760px;margin:auto;text-align:center}
+.story-inner p{font-size:18px}
+.quote{
+ max-width:760px;margin:25px auto;padding:28px 20px;
+ border-top:1px solid #edc58b66;border-bottom:1px solid #edc58b66;
+ text-align:center
+}
+.quote blockquote{font-size:23px;font-style:italic;margin:10px 0}
+.quote small{color:var(--gold)}
+.surprise{
+ max-width:650px;margin:30px auto 0;padding:25px;
+ border-radius:18px;background:#24141e;text-align:center
+}
+#secret{display:none;margin-top:20px;padding:20px;border:1px solid #ff456455;border-radius:12px}
+#secret p{color:#fff0f2;font-size:18px}
+footer{text-align:center;padding:42px 20px;background:#0b080d}
+.signature{font-size:32px;font-style:italic;color:var(--gold)}
+footer p{font-size:13px}
+.pulse{animation:pulse 2s infinite}
+@keyframes pulse{50%{transform:scale(1.08)}}
+@media(max-width:750px){
+ nav{padding:12px 5%}
+ nav a{font-size:12px}
+ .brand{font-size:17px}
+ .hero{min-height:540px;padding:55px 7%;background-position:60% center}
+ .hero p{font-size:16px}
+ section{padding:48px 5%}
+ .cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .card{padding:19px 12px}
+ .section-title{font-size:28px}
+ .quote blockquote{font-size:20px}
+}
+@media(max-width:390px){
+ .brand{font-size:15px}
+ nav a{font-size:11px}
+ .cards{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<nav>
+ <div class="brand"><span>♥</span> Para a minha Leontina</div>
+ <a href="#mensagem">A minha mensagem ↓</a>
+</nav>
+
+<header class="hero">
+ <div class="intro">
+  <div class="eyebrow">UM SITE FEITO COM CARINHO</div>
+  <h1>Leontina,<br><em>tu és especial.</em></h1>
+  <p>
+   Há pessoas que tornam os nossos dias mais bonitos
+   simplesmente por existirem. Tu és uma dessas pessoas.
+   Fiz esta pequena surpresa especialmente para ti.
+  </p>
+  <a class="btn" href="#mensagem">♥ Descobre a minha mensagem</a>
+ </div>
+</header>
+
+<section id="euetu">
+ <h2 class="section-title">O que admiro em ti</h2>
+ <p class="subtitle">Há coisas que merecem ser ditas, em vez de ficarem guardadas.</p>
+ <div class="cards">
+  <article class="card">
+   <div class="heart">♡</div>
+   <h3>A tua essência</h3>
+   <p>Admiro a pessoa que és e a maneira única como vês o mundo.</p>
+  </article>
+  <article class="card">
+   <div class="heart">✧</div>
+   <h3>A tua inteligência</h3>
+   <p>Gosto de conhecer as tuas ideias e aprender um pouco mais sobre ti.</p>
+  </article>
+  <article class="card">
+   <div class="heart">☺</div>
+   <h3>O teu sorriso</h3>
+   <p>Existem pequenos momentos que ficam na memória e se tornam especiais.</p>
+  </article>
+  <article class="card">
+   <div class="heart">∞</div>
+   <h3>As possibilidades</h3>
+   <p>Gosto da ideia de nos conhecermos cada vez melhor, com sinceridade.</p>
+  </article>
+ </div>
+</section>
+
+<section class="story" id="porque">
+ <div class="story-inner">
+  <div class="eyebrow">UM SENTIMENTO SINCERO</div>
+  <h2 class="section-title">Não é só pela beleza...</h2>
+  <p>
+   É pela pessoa que és, pelas conversas que podemos ter,
+   pela tua maneira de pensar e por tudo aquilo que ainda
+   podemos descobrir um sobre o outro.
+  </p>
+  <p>
+   Não quero escrever promessas bonitas apenas para impressionar.
+   Prefiro demonstrar com atitudes, respeito, paciência e verdade.
+  </p>
+  <div class="quote" id="biblia">
+   <div class="heart">♡</div>
+   <blockquote>
+    “O amor é paciente, o amor é bondoso.”
+   </blockquote>
+   <small>1 Coríntios 13:4</small>
+   <p>Que Deus nos ensine a tratar os outros com amor, sabedoria e respeito.</p>
+  </div>
+ </div>
+</section>
+
+<section id="mensagem">
+ <div class="surprise">
+  <div class="heart pulse">♥</div>
+  <h2 class="section-title">Leontina, esta parte é para ti</h2>
+  <p>Preparei algumas palavras que quero que leias com carinho.</p>
+  <button class="btn" id="reveal" onclick="mostrarMensagem()">
+   Abrir a minha mensagem 💌
+  </button>
+  <div id="secret" aria-live="polite">
+   <p>
+    Leontina, quero que saibas que és alguém especial para mim.
+    Gosto de ti e tenho vontade de te conhecer cada vez melhor.
+    Não quero pressionar-te nem apressar nada.
+    Quero que tudo aconteça com sinceridade, respeito e vontade
+    dos dois. ❤️
+   </p>
+   <p>
+    Se também sentires que vale a pena, gostaria de descobrir
+    contigo o que o futuro nos reserva.
+   </p>
+   <div class="signature">Com carinho, Felizandro</div>
+  </div>
+ </div>
+</section>
+
+<section id="futuro" class="story">
+ <div class="story-inner">
+  <h2 class="section-title">Uma coisa importante...</h2>
+  <p>
+   Para mim, o mais bonito não é apenas dizer “gosto de ti”.
+   É saber ouvir, respeitar as tuas escolhas, apoiar os teus
+   sonhos e permitir que cada pessoa seja ela mesma.
+  </p>
+  <p>Se houver um caminho para nós, que seja construído com verdade.</p>
+  <div class="heart">♥</div>
+ </div>
+</section>
+
+<footer>
+ <div class="signature">Felizandro</div>
+ <p>Feito com carinho, especialmente para Leontina. ♥</p>
+ <p>Que Deus abençoe os teus dias e os teus sonhos.</p>
+ <small>Uma pequena página, um sentimento sincero.</small>
+</footer>
+
+<script>
+function mostrarMensagem(){
+ const caixa=document.getElementById("secret");
+ const botao=document.getElementById("reveal");
+ const aberto=caixa.style.display==="block";
+ caixa.style.display=aberto?"none":"block";
+ botao.textContent=aberto
+  ?"Abrir a minha mensagem 💌"
+  :"Fechar a mensagem ♡";
+}
+</script>
+
+</body>
+</html>
